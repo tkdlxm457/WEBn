@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <article>
+
+
+        </article>
+        <input type="button" value="fetch" onclick="
+        fetch('css').then(function(respnse){
+            response.text().then(function(text){
+                document.querySelector('article').innerHTML = text;
+            })
+        })
+
+        ">
+    </body>
+</html>
